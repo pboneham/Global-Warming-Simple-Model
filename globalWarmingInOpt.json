@@ -1,0 +1,14 @@
+{
+    "emissResidualFac"	:  	4.38098,
+    "ch4Fac"	:  	0.05837,
+    "linCoeff"	:  	1.0,
+    "co2Fac"	:  	0.00072435,
+    "n2oFac"	:  	3.03383,
+    "atmMolarDens" : 26.567,
+    "atmPathLength" : 1E4,
+    "a" : 315.0,
+    "b" : 4.6,
+    "s" : 1370.0,
+    "alpha" : 0.32
+
+}

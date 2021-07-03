@@ -5,19 +5,19 @@ of years back. It is based on a one layer atmosphere model - see https://www.acs
 (The above link also presents a more complex, three layer atmosphere model - this may be interesting to look at and update another time)
 
 The simple model had some free parameters that needed to be optimized to fit the temperature
-hsitory data. My motivation was to understand how well the basic theory that greenhouse
-gas increased concentrations was driving the reported temperature increases.
+hsitory data. My motivation was to understand how well the theory that greenhouse
+gas increased concentrations was driving the reported temperature increases works.
 
 The free parameters are:
 
-  Factor quantifying impact of CO2 in calculating the emissivity of the atmosphere
-  Factor quantifying impact of CH4 in calculating the emissivity of the atmosphere
-  Factor quantifying impact of N20 in calculating the emissivity of the atmosphere
-  "Velocity" parameter that measures how quickly the earth system moves towards a new equilibrium temperature when this changes
-  Residual factor in emissivity calculation
+  1. Factor quantifying impact of CO2 in calculating the emissivity of the atmosphere
+  2. Factor quantifying impact of CH4 in calculating the emissivity of the atmosphere
+  3. Factor quantifying impact of N20 in calculating the emissivity of the atmosphere
+  4. "Velocity" parameter that measures how quickly the earth system moves towards a new equilibrium temperature when this changes
+  5. Residual factor in emissivity calculation
   
-Most of the above are related to the emissivity calculation as a function of GHG concentrations. When I fitted the parameters
-to the observed temperature history, the input parameters ended up giving an emissivity of 0.78 for the earth's atmosphere, which 
+Most of the above are related to the emissivity calculation as a function of GHG concentrations. When I used the parameters
+that best fitted the observed temperature history, the model calculated an emissivity of 0.78 for the earth's atmosphere, which 
 the www.acs.org page mentioned at the start indicates is about the right value.
 
 One problem in fitting the temperature history is that the CO2, CH4 and N2O concentrations are strongly correlated

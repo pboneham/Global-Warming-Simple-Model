@@ -36,8 +36,14 @@ which is available in another one of my repos. The "adaptor" program for the glo
  there are a number of bumps and troughs that are not well reproduced and I don't think can reasonably be attributed to changes
  in CO2 & other GHG concentrations. In particular, there is a strong peak in the 1940s which doesn't match changes in the GHG concentrations.
  
- The recent history is reproduced well and I've extended the modeled temperatures out to 2040 - it will be interesting to see
+ The recent history is reproduced well and I've extended the modeled temperatures out to 2040 (using a linear extrapolation of GHG concentrations
+ based on last ten years absolute rates of increase) - it will be interesting to see
  how good the predictions are over the next few years. (In fact, when I originally created this model I only had temperatures out
- to around 2010 - even though the model is more recent than that - and it's done quite well over the period 2010-2020)
+ to around 2010 - even though the model is more recent than that - and it's done OK over the period 2010-2020)
  
  ![Global Warming Plot](globalWarmingSmoothedDataAndPrediction.png)
+
+*Note: plot updated 4 July 2021 - preindustrial line is at 13.8C, add 1.5C = 15.3C
+One thing I found out in all this is to be careful about "increase over preindustrial" versus
+temperature anomoly. NASA for example presents temperatures relative to 1951 to 1980 - I calculated
+this average as 14C, so 0.2C higher than the preindustrial average*
